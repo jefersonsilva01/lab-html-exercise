@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+/* Form Nav */
+
+form {
+  width: 80%;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+form label {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 42px;
+}
+
+.glass {
+  width: 16px;
+  height: 16px;
+}
+
+form input {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-style: none;
+  font-size: 16px;
+  width: 85%;
+  height: 40px;
+  outline: none;
+  cursor: text;
+}
+
+form button {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  height: 42px;
+  font-size: 16px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.npm-logo {
+  width: 56px;
+}
+
+#join,
+#login {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+#join {
+  padding: 4px 16px;
+  border: 1px solid black;
+}
+
+/* section build-things  */
+
+#build-things {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 120px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+#build-things article {
+  width: 423px;
+  margin-bottom: 32px;
+}
+
+#build-things > div {
+  display: flex;
+  width: 423px;
+  justify-content: space-around;
+}
+
+#build-things a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 48px;
+  font-weight: bold;
+}
+
+#plans {
+  background-color: #fb3e44;
+  color: white;
+  box-shadow: 8px 8px 2px 0px #2e2d2d2b;
+}
+
+#join-free {
+  background-color: white;
+  color: black;
+}
+
+/* section bring-company  */
+
+#bring-company {
+  text-align: center;
+  padding: 80px 0;
+}
+
+#bring-company img {
+  width: 200px;
+}
+
+#bring-company div {
+  background-image: url("./images/bg-yellow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bring-company article {
+  color: rgb(71, 68, 68);
+  width: 679px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+/* section create-org  */
+
+#create-org {
+  display: flex;
+  flex-direction: column;
+}
+
+#create-org > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#create-org .icon {
+  width: 32px;
+  height: 32px;
+}
+
+#create-org h3 {
+  color: #fb3e44;
+}
+
+#create-org p {
+  width: 250px;
+}
+
+#create-org > #link-crate-org {
+  margin: 50px auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 60px;
+  background-color: black;
+  box-shadow: 8px 8px 2px 0px #2e2d2d2b;
+  color: white;
+  width: 250px;
+  font-weight: bold;
+  font-size: 18px;
+}

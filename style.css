@@ -159,10 +159,7 @@ h1 {
 }
 
 #bring-company div {
-  background-image: url("./images/bg-yellow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("./images/bg-yellow.svg") center/cover no-repeat;
 }
 
 #bring-company article {
